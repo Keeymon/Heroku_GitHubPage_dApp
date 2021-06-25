@@ -1,3 +1,2 @@
-/client/node_module
-/client/yarn.lock
 .env
+node_modules/
