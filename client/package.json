@@ -9,8 +9,7 @@
     "web3": "1.2.2"
   },
   "engines": {
-    "node": "10.19.0",
-    "npm": "7.18.1"
+    "node": "12.x"
   },
   "scripts": {
     "start": "react-scripts start",
