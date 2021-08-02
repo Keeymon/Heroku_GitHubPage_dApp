@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Heroku_GitHubPage_dApp/static/css/main.b100e6da.chunk.css",
+    "main.js": "/Heroku_GitHubPage_dApp/static/js/main.ebcb5d4d.chunk.js",
+    "main.js.map": "/Heroku_GitHubPage_dApp/static/js/main.ebcb5d4d.chunk.js.map",
+    "runtime-main.js": "/Heroku_GitHubPage_dApp/static/js/runtime-main.1c6b297a.js",
+    "runtime-main.js.map": "/Heroku_GitHubPage_dApp/static/js/runtime-main.1c6b297a.js.map",
+    "static/js/2.f7504f16.chunk.js": "/Heroku_GitHubPage_dApp/static/js/2.f7504f16.chunk.js",
+    "static/js/2.f7504f16.chunk.js.map": "/Heroku_GitHubPage_dApp/static/js/2.f7504f16.chunk.js.map",
+    "index.html": "/Heroku_GitHubPage_dApp/index.html",
+    "precache-manifest.0a728caf13e67790de7306051e897d71.js": "/Heroku_GitHubPage_dApp/precache-manifest.0a728caf13e67790de7306051e897d71.js",
+    "service-worker.js": "/Heroku_GitHubPage_dApp/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/Heroku_GitHubPage_dApp/static/css/main.b100e6da.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c6b297a.js",
+    "static/js/2.f7504f16.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.ebcb5d4d.chunk.js"
+  ]
+}
