@@ -1,11 +1,12 @@
 # Heroku_GitHubPage_dApp
-Déploiement sur Heroku et Github Page d'un smart contract via Truffle
+Déploiement sur Heroku et Github Page d'un smart contract via Truffle (HDWalletProvider / DOTENV)
 
 
   ```
   # git clone git@github.com:timelapse-project/timelapse.git
   cd Heroku_GitHubPage_dApp
   ```
+
 
   Pour Heroku :
   ```
@@ -22,8 +23,17 @@ Déploiement sur Heroku et Github Page d'un smart contract via Truffle
   git subtree push --prefix client/ heroku master
   ```
   
+  
   Pour GitHubPage :
   ```
   # Installez le paquet gh-pages en exécutant la commande suivante :
   npm install --save gh-pages
+  
+  # Dans le package.json client ajouter :
+  - "homepage": "https://[user-name].github.io/[repo-name]/"
+  - "predeploy": "npm run build"
+  - "deploy": "gh-pages -d build"
+  
+  # Dans le dossier client
+  npm run deploy
   ```
