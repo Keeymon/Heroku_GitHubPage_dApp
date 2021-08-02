@@ -3,7 +3,7 @@ Déploiement sur Heroku et Github Page d'un smart contract via Truffle (HDWallet
 
 
   ```
-  # git clone git@github.com:timelapse-project/timelapse.git
+  # git clone git@github.com:timelapse-project/Heroku_GitHubPage_dApp.git
   cd Heroku_GitHubPage_dApp
   ```
 
