@@ -5,7 +5,10 @@ Déploiement sur Heroku et Github Page d'un smart contract via Truffle
   ```
   # git clone git@github.com:timelapse-project/timelapse.git
   cd Heroku_GitHubPage_dApp
+  ```
 
+  Pour Heroku :
+  ```
   # Login (once) to Heroku via CLI if you have not already done
   heroku login
 
@@ -17,5 +20,10 @@ Déploiement sur Heroku et Github Page d'un smart contract via Truffle
   
   # Push the project to Heroku
   git subtree push --prefix client/ heroku master
-
+  ```
+  
+  Pour GitHubPage :
+  ```
+  # Installez le paquet gh-pages en exécutant la commande suivante :
+  npm install --save gh-pages
   ```
