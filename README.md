@@ -24,6 +24,9 @@ Déploiement sur Heroku et Github Page d'un smart contract via Truffle (HDWallet
   # Option B: If existing, declare the heroku git remote repository
   heroku git:remote --ssh-git
   
+  # If Heroku needs your key :
+  heroku keys:add ~/.ssh/id_rsa.pub
+  
   # Push the project to Heroku
   git subtree push --prefix client/ heroku master
   ```
