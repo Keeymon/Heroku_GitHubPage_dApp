@@ -34,13 +34,16 @@ Déploiement sur Heroku et Github Page d'un smart contract via Truffle (HDWallet
   
   Pour GitHubPage :
   ```
+  # Tout est dans le dossier CLIENT
   # Installez le paquet gh-pages en exécutant la commande suivante :
   npm install --save gh-pages
   
-  # Dans le package.json client ajouter :
+  # Dans le package.json ajouter :
   - "homepage": "https://[user-name].github.io/[repo-name]/"
   - "predeploy": "npm run build"
   - "deploy": "gh-pages -d build"
+  
+  npm install
   
   # Dans le dossier client
   npm run deploy
