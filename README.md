@@ -10,8 +10,12 @@ Déploiement sur Heroku et Github Page d'un smart contract via Truffle
   heroku login
 
   # Option A: If not existing, create the heroku git remote repository
-  heroku create --ssh-git --buildpack mars/create-react-app timelapse-project
+  heroku create --ssh-git --buildpack mars/create-react-app Heroku_GitHubPage_dApp
 
   # Option B: If existing, declare the heroku git remote repository
-  heroku git:remote --ssh-git -a timelapse-project
+  heroku git:remote --ssh-git -a Heroku_GitHubPage_dApp
+  
+  # Push the project to Heroku
+  git subtree push --prefix client/ heroku master
+
   ```
