@@ -42,9 +42,9 @@
       "constant": true
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"SetValue\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"get\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"x\",\"type\":\"uint256\"}],\"name\":\"set\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/keymon/Work/dApp/integcontinu/Heroku_GitHubPage_dApp/contracts/SimpleStorage.sol\":\"SimpleStorage\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/keymon/Work/dApp/integcontinu/Heroku_GitHubPage_dApp/contracts/SimpleStorage.sol\":{\"keccak256\":\"0x77473f2fb2929ea50a5886aef98806a57339aab5115861c494f5acd355ec2384\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://387d64decea593161385a42f31afe03ee17ed7be88c96faa7605747fb4a3e86e\",\"dweb:/ipfs/QmZCm2iTVAECL8bbQjcC6jd8Cm27qAZEr1F3YzyLPjhJFU\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b5061017e806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c806360fe47b11461003b5780636d4ce63c14610057575b600080fd5b610055600480360381019061005091906100d4565b610075565b005b61005f6100b6565b60405161006c919061010c565b60405180910390f35b806000819055507fed8b07065ef0737c0cfb1bf1e23ccc881d797ec9804f74230a360b84982938ab816040516100ab919061010c565b60405180910390a150565b60008054905090565b6000813590506100ce81610131565b92915050565b6000602082840312156100e657600080fd5b60006100f4848285016100bf565b91505092915050565b61010681610127565b82525050565b600060208201905061012160008301846100fd565b92915050565b6000819050919050565b61013a81610127565b811461014557600080fd5b5056fea2646970667358221220fad176a6c108533cd250be125ceb5a2a8806b21049b4ffcd9eb4fc359293906864736f6c63430008000033",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c806360fe47b11461003b5780636d4ce63c14610057575b600080fd5b610055600480360381019061005091906100d4565b610075565b005b61005f6100b6565b60405161006c919061010c565b60405180910390f35b806000819055507fed8b07065ef0737c0cfb1bf1e23ccc881d797ec9804f74230a360b84982938ab816040516100ab919061010c565b60405180910390a150565b60008054905090565b6000813590506100ce81610131565b92915050565b6000602082840312156100e657600080fd5b60006100f4848285016100bf565b91505092915050565b61010681610127565b82525050565b600060208201905061012160008301846100fd565b92915050565b6000819050919050565b61013a81610127565b811461014557600080fd5b5056fea2646970667358221220fad176a6c108533cd250be125ceb5a2a8806b21049b4ffcd9eb4fc359293906864736f6c63430008000033",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"SetValue\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"get\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"x\",\"type\":\"uint256\"}],\"name\":\"set\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/keymon/work/dApp/test_heroku/Heroku_GitHubPage_dApp/contracts/SimpleStorage.sol\":\"SimpleStorage\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/keymon/work/dApp/test_heroku/Heroku_GitHubPage_dApp/contracts/SimpleStorage.sol\":{\"keccak256\":\"0x77473f2fb2929ea50a5886aef98806a57339aab5115861c494f5acd355ec2384\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://387d64decea593161385a42f31afe03ee17ed7be88c96faa7605747fb4a3e86e\",\"dweb:/ipfs/QmZCm2iTVAECL8bbQjcC6jd8Cm27qAZEr1F3YzyLPjhJFU\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5061017e806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c806360fe47b11461003b5780636d4ce63c14610057575b600080fd5b610055600480360381019061005091906100d4565b610075565b005b61005f6100b6565b60405161006c919061010c565b60405180910390f35b806000819055507fed8b07065ef0737c0cfb1bf1e23ccc881d797ec9804f74230a360b84982938ab816040516100ab919061010c565b60405180910390a150565b60008054905090565b6000813590506100ce81610131565b92915050565b6000602082840312156100e657600080fd5b60006100f4848285016100bf565b91505092915050565b61010681610127565b82525050565b600060208201905061012160008301846100fd565b92915050565b6000819050919050565b61013a81610127565b811461014557600080fd5b5056fea2646970667358221220a451e3ab0af316cdd6ec2fb3c953e7c5a9295464c16dfaf44d431b44476dc26164736f6c63430008000033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c806360fe47b11461003b5780636d4ce63c14610057575b600080fd5b610055600480360381019061005091906100d4565b610075565b005b61005f6100b6565b60405161006c919061010c565b60405180910390f35b806000819055507fed8b07065ef0737c0cfb1bf1e23ccc881d797ec9804f74230a360b84982938ab816040516100ab919061010c565b60405180910390a150565b60008054905090565b6000813590506100ce81610131565b92915050565b6000602082840312156100e657600080fd5b60006100f4848285016100bf565b91505092915050565b61010681610127565b82525050565b600060208201905061012160008301846100fd565b92915050565b6000819050919050565b61013a81610127565b811461014557600080fd5b5056fea2646970667358221220a451e3ab0af316cdd6ec2fb3c953e7c5a9295464c16dfaf44d431b44476dc26164736f6c63430008000033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [
@@ -643,9 +643,9 @@
   "sourceMap": "56:229:1:-:0;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "56:229:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;134:75;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;213:70;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;134:75;181:1;168:10;:14;;;;193:11;202:1;193:11;;;;;;:::i;:::-;;;;;;;;134:75;:::o;213:70::-;249:4;268:10;;261:17;;213:70;:::o;7:139:2:-;;91:6;78:20;69:29;;107:33;134:5;107:33;:::i;:::-;59:87;;;;:::o;152:262::-;;260:2;248:9;239:7;235:23;231:32;228:2;;;276:1;273;266:12;228:2;319:1;344:53;389:7;380:6;369:9;365:22;344:53;:::i;:::-;334:63;;290:117;218:196;;;;:::o;420:118::-;507:24;525:5;507:24;:::i;:::-;502:3;495:37;485:53;;:::o;544:222::-;;675:2;664:9;660:18;652:26;;688:71;756:1;745:9;741:17;732:6;688:71;:::i;:::-;642:124;;;;:::o;772:77::-;;838:5;827:16;;817:32;;;:::o;855:122::-;928:24;946:5;928:24;:::i;:::-;921:5;918:35;908:2;;967:1;964;957:12;908:2;898:79;:::o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity 0.8.0;\n\ncontract SimpleStorage {\n  uint storedData;\n\n  event SetValue(uint value);\n\n  function set(uint x) public {\n    storedData = x;\n    emit SetValue(x);\n  }\n\n  function get() public view returns (uint) {\n    return storedData;\n  }\n}",
-  "sourcePath": "/home/keymon/Work/dApp/integcontinu/Heroku_GitHubPage_dApp/contracts/SimpleStorage.sol",
+  "sourcePath": "/home/keymon/work/dApp/test_heroku/Heroku_GitHubPage_dApp/contracts/SimpleStorage.sol",
   "ast": {
-    "absolutePath": "/home/keymon/Work/dApp/integcontinu/Heroku_GitHubPage_dApp/contracts/SimpleStorage.sol",
+    "absolutePath": "/home/keymon/work/dApp/test_heroku/Heroku_GitHubPage_dApp/contracts/SimpleStorage.sol",
     "exportedSymbols": {
       "SimpleStorage": [
         67
@@ -987,7 +987,7 @@
     "src": "32:253:1"
   },
   "legacyAST": {
-    "absolutePath": "/home/keymon/Work/dApp/integcontinu/Heroku_GitHubPage_dApp/contracts/SimpleStorage.sol",
+    "absolutePath": "/home/keymon/work/dApp/test_heroku/Heroku_GitHubPage_dApp/contracts/SimpleStorage.sol",
     "exportedSymbols": {
       "SimpleStorage": [
         67
@@ -1336,8 +1336,8 @@
     "3": {
       "events": {},
       "links": {},
-      "address": "0xd0d9998E4aA9DeC995C30919A63DCf70449dE58e",
-      "transactionHash": "0xadb6c2b477e0de0390c61a025b4de4ee6c4fbfa7a8dfac15e9b5296066e4430e"
+      "address": "0x47e405DD8F4D9D51c9B1b8c7C564D2DeB822f1e6",
+      "transactionHash": "0x0177dd3853e4f4748721e5bd821d92fd594075e13a893fc32a25fedde6fa932e"
     },
     "5777": {
       "events": {},
@@ -1347,7 +1347,7 @@
     }
   },
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-06-29T09:45:44.843Z",
+  "updatedAt": "2021-08-02T15:00:03.020Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
